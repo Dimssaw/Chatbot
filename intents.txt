@@ -1,0 +1,75 @@
+{
+    "intents": [
+      {
+        "tag": "Salam",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "halo",
+          "Siapa disana?",
+          "Hai",
+          "Assalamualaikum",
+          "Selamat Pagi",
+          "Selamat Sore",
+          "Selamat Malam"
+        ],
+        "responses": [
+          "Hai juga :-)",
+          "Hello, Ada apa",
+          "Hi , apa yang bisa saya bantu?"
+          
+        ]
+      },
+      {
+        "tag": "Selamat tinggal",
+        "patterns": ["Bye", "Sampai Jumpa", "Selamat Tinggal"],
+        "responses": [
+          "Sampai Jumpa, Terimakasih",
+          "Semoga kamu bahagia",
+          "Bye! datanglah kembali."
+        ]
+      },
+      {
+        "tag": "Terimakasih",
+        "patterns": ["Thanks", "Thank you", "Terimakasih", "Makasih"],
+        "responses": ["Senang bisa Membantu!", "oke!", "sama sama"]
+      },
+      {
+        "tag": "Peoduk",
+        "patterns": [
+          "Apa yang kamu jual?",
+          "Kamu jual apa?",
+          "Apa yang kamu punya?"
+        ],
+        "responses": [
+          "Kami Menjual Kopi dan Teh",
+          "Kami Mempunyai Kopi dan Teh"
+        ]
+      },
+      {
+        "tag": "pembayaran",
+        "patterns": [
+          "Bisa menggunakan kartu kredit?",
+          "bisa menggunakan kartu debit?",
+          "Bisa menggunakan Gopay?",
+          "Bisa menggunakan uang tunai?"
+        ],
+        "responses": [
+          "Kami menerima VISA, Mastercard and alat pembayaran lainnya",
+          "Tentu saja"
+        ]
+      },
+      {
+        "tag": "Pengiriman",
+        "patterns": [
+          "Berapa lama pengiriman sampai?",
+          "Dikirim Kapan?"
+        ],
+        "responses": [
+          "Pengiriman 2-4 jam",
+          "Dikirim setelah di kemas"
+        ]
+      }
+      
+    ]
+  }
